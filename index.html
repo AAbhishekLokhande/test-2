@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     
+    <div id="div1">
+        <nav id="navbar">
+            <span ><a href="#h1"  id="nav1" class="navup">Books Library</a></span>
+            <span><a href="#h1"  class="navup">Books</a></span>
+            <span><a href="#register"  class="navup">Register</a></span>
+            <span><a href="#"  class="navup">Contact Us</a></span>
+            <span> <a href="#"  class="navup">Logout</a></span>
+        </nav>
+    </div>
+    <div class="main-container">
+    <div class=" list div2">
+        <table id="maintable">
+            <h2 id="h1">Books</h2>
+            <thead >
+                <tr>
+                    <th class="head">Book ID</th>
+                    <th class="head">Title</th>
+                    <th class="head">Author</th>
+                    <th class="head">Genere</th>
+                    <th class="head">Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col1">1</td>
+                    <td>
+                        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWp_-nQJnzHM1SzYAlCVaVPqoWqS80RvnxDZISqT4&s">My Book Cover</a>
+                        <table class="table3">
+                            <tr>
+                                <td class="table2">Publication Date: 2004</td>
+                            </tr>
+                            <tr>
+                                <td class="table2">Page Court: 500</td>
+                            </tr>
+                            <tr>
+                                <td class="table2">ISBN:123-2343451</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col3">Shiv Anand</td>
+                    <td>Education</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td class="col1">2</td>
+                    <td>
+                        <a href="https://images.unsplash.com/photo-1592496431122-2349e0fbc666?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vayUyMGNvdmVyfGVufDB8fDB8fHww&w=1000&q=80"> The Psychology Of Money</a>
+                        <table class="table3">
+                            <tr>
+                                <td class="table2">Publication Date: 2000</td>
+                            </tr>
+                            <tr>
+                                <td class="table2">Page Court: 300</td>
+                            </tr>
+                            <tr>
+                                <td class="table2">ISBN:123-234343545</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col3">Morgan Housel</td>
+                    <td>Action</td>
+                    <td> Not Available</td>
+                </tr>
+                <tr>
+                    <td class="col1">3</td>
+                    <td>
+                        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyNjrZkPTBOGgUWn19FR-3rHWUiUVxySLcFn9UmegQ&s">Book Cover Design Formula</a>
+                        <table class="table3">
+                            <tr>
+                                <td class="table2">Publication Date: 2011</td>
+                            </tr>
+                            <tr>
+                                <td class="table2">Page Court: 600</td>
+                            </tr>
+                            <tr>
+                                <td class="table2">ISBN:123-23434786</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col3">Lord Curzon</td>
+                    <td>Horror</td>
+                    <td>Available</td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+    <div class=" list div3">
+        <form action="" method="post">
+            <h2 id="register">Register</h2>
+            <br>
+            <label class="form" for="first name">First Name</label>
+            <br>
+            <input class="form" type="text" id="first name" placeholder="First Name" required>
+            <br>
+            <label class="form" for="last name">Last Name</label>
+            <br>
+            <input class="form" type="text" id="last name" placeholder="Last Name" required>
+            <br>
+            <label class="form" for="dob">Date Of Birth</label>
+            <br>
+            <input class="form" type="date" id="dob" placeholder=" date of birth" required>
+            <br>
+            <label class="form" for="age">Age</label>
+            <br>
+            <input class="form" type="number" id="age" placeholder="Age" min="10" max="99" required>
+            <br>
+            <label class="form" for="email">Email</label>
+            <br>
+            <input class="form" type="email" id="email" placeholder="Email" required>
+            <br>
+            <label class="form" for="password">Password</label>
+            <br>
+            <input class="form"type="password" id="password" placeholder="Password" required>
+            <br>
+            <label class="form" for="confirm password">Confirm Password</label>
+            <br>
+            <input class="form" type="password" id="confirm password" placeholder="Confirm Password" required>
+            <br>
+            <button id="button" class="form" type="submit">Register</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
